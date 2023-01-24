@@ -15,7 +15,7 @@ jobs:
         run: cd ./DotnetTemplate.Web && npm install
 
       - name: build javascript
-        run: npm run build
+        run: cd ./DotnetTemplate.Web && npm run build
 
       - name: dotnet tests
         run: dotnet test
