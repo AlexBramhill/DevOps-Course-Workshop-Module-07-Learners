@@ -10,7 +10,7 @@ declare module 'nhsuk-frontend/packages/components/details/details' {
   export default function Details(): void;
 }
 
-declare module 'nhsuk-frontend/packages/components/radios/radios' {
+declare module "nhsuk-frontend/packages/components/radios/radios" {
   export default function Radios(): void;
 }
 
